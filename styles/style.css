@@ -1,5 +1,15 @@
 @import url(/styles/block/logo/logo.css);
 @import url(/styles/block/logo/logo_place_header_position/logo_place_header_position.css);
+
+@keyframes rotation {
+  from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 a {
   text-decoration: none;
 }
@@ -23,7 +33,7 @@ a {
   display: flex;
   background-color: #f2f2f2 ;
   position: relative;
-  border: 4px solid #f2f2f2 ;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -83,6 +93,7 @@ a {
   right: 0px;
   position: absolute;
   margin-top: 64px;
+  animation: rotation 20s infinite linear;
 }
 
 .table__cell_theme_dark {
@@ -419,4 +430,16 @@ width: 240px;
 
 .footer__column-link {
   color: #f2f2f2;
+}
+
+.video__iframes {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.video_iframe {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
 }
