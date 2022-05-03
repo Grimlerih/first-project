@@ -1,0 +1,23 @@
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resources__logo_arzamas {
+  background-image: url(/images/logo/resources-arzamas.svg);
+}
+
+.resources__logo_n1 {
+  background-image: url(/images/logo/resources-n1.svg);
+}
+
+.resources__logo_strelka {
+  background-image: url(/images/logo/resources-strelka.svg);
+}
+
+.resources__logo_polka {
+  background-image: url(/images/logo/resources-polka.svg);
+}

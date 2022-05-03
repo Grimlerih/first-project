@@ -1,0 +1,5 @@
+.table__heading_theme_dark {
+  align-self: flex-start;
+  display: flex;
+  z-index: 2;
+}
