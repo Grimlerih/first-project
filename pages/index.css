@@ -10,7 +10,6 @@
 @import url(/block/content/resources/resources.css);
 @import url(/block/footer/footer.css);
 @import url(/block/content/digits/digits.css);
-
 /* не совсем уверен что сделал правильно
 разместив код ниже подключенных файлов */
 
@@ -31,19 +30,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Inter', Arial, sans-serif;
-}
-
-.bold{
-  font-family: 'bold';
-}
-
-.reular {
-  font-family: 'reular';
-}
-
-.semibold {
-  font-family: 'semibold';
+  font-family:  'Inter', 'Arial', sans-serif;
 }
 
 a {
