@@ -10,3 +10,5 @@
   margin: auto;
   flex-wrap: wrap;
 }
+
+ul {list-style: none;}

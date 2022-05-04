@@ -9,4 +9,5 @@
   background-size: contain;
   animation: rotation 20s infinite linear;
   background-repeat: no-repeat;
+  z-index: 0;
 }

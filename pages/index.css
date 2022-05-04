@@ -8,6 +8,20 @@
 @import url(/block/content/khan/khan.css);
 @import url(/block/content/kaufman/kaufman.css);
 @import url(/block/content/resources/resources.css);
+@import url(/block/footer/footer.css);
+@import url(/block/content/digits/digits.css);
+
+/* не совсем уверен что сделал правильно
+разместив код ниже подключенных файлов */
+
+@keyframes rotation {
+  from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
 
 .page {
   min-width: 1100px;
@@ -18,5 +32,26 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
-  /* 'Inter', потом добавить шрифт */
+}
+
+.bold{
+  font-family: 'bold';
+}
+
+.reular {
+  font-family: 'reular';
+}
+
+.semibold {
+  font-family: 'semibold';
+}
+
+a {
+  text-decoration: none;
+  transition:opacity 0.5s;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.7;
 }
