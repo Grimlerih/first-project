@@ -1,7 +1,7 @@
 .header__main-illustration {
   margin: 0px;
   padding: 0px;
-  background-image: url(/images/header-image.png);
+  background-image: url(../../../images/header-image.png);
   width: 765px;
   height: 608px;
   right: 0px;
@@ -10,5 +10,4 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 1;
 }

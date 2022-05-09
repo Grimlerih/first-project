@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 @font-face {
-    src:
-    url(font/fonts-inter/Inter-Bold.woff2) format('woff2'),
-    url(font/fonts-inter/Inter-Bold.woff) format('woff');
-    font-family: 'bold';
+  src:
+  url(../font/fonts-inter/Inter-Bold.woff2) format('woff2'),
+  url(../font/fonts-inter/Inter-Bold.woff) format('woff');
+  font-family: 'Inter';
+  font-weight: 700;
 }
 
 @font-face {
     src:
-    url(font/fonts-inter/Inter-Regular.woff2) format('woff2'),
-    url(font/fonts-inter/Inter-Regular.woff) format('woff');
-    font-family: 'regular';
+    url(../font/fonts-inter/Inter-Regular.woff2) format('woff2'),
+    url(../font/fonts-inter/Inter-Regular.woff) format('woff');
+    font-family: 'Inter';
+    font-weight: 400;
 }
 
 @font-face {
     src:
-    url(font/fonts-inter/Inter-SemiBold.woff2) format('woff2'),
-    url(font/fonts-inter/Inter-SemiBold.woff) format('woff');
-    font-family: 'semibold';
+    url(../font/fonts-inter/Inter-SemiBold.woff2) format('woff2'),
+    url(../font/fonts-inter/Inter-SemiBold.woff) format('woff');
+    font-family: 'Inter';
+    font-weight: 600;
 }
 

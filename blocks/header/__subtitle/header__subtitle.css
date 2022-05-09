@@ -2,9 +2,11 @@
   line-height: 25px;
   font-size: 18px;
   margin: 0;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   left: 64px;
   bottom: 30px;
-  font-weight: normal;
+  font-weight: 400;
+  z-index: 1;
 }
